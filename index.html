@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohamad Kargar - AI Researcher from London</title>
+  <title>Mohamad Kargar - AI Researcher</title>
 
   <!-- 
     - favicon
@@ -16,6 +16,9 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome CDN link (add this in <head> section) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 
   <!-- 
     - google font link
@@ -38,6 +41,14 @@
 
       <a href="#">
         <h1 class="logo">Mohamad Kargar</h1>
+      </a>
+      <a href="https://www.linkedin.com/in/mohamad-kargar-50212aa3/" target="_blank" title="LinkedIn" style="margin-left: 10px;">
+       
+        <i class="fab fa-linkedin fa-2x" style="color: #0077b5;"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?hl=en&user=cF1NbNcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" title="Google Scholar" style="margin-left: 10px;">
+        <i class="fas fa-graduation-cap fa-2x" style="color: #0077b5;"></i>
+        
       </a>
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
@@ -72,9 +83,7 @@
             <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
           </li>
 
-          <li>
-            <a href="#" class="btn btn-primary">Download CV</a>
-          </li>
+          
 
         </ul>
       </nav>
@@ -98,7 +107,7 @@
 
           <div class="hero-banner">
 
-            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Mohamad's Photo"
               class="img-cover">
 
             <div class="elem elem-1">
@@ -117,8 +126,7 @@
               <ion-icon name="trophy"></ion-icon>
             </div>
 
-            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
-              class="rotate-img">
+           
 
           </div>
 
@@ -126,11 +134,11 @@
 
             <h2 class="hero-title">
               <span>Hello I'm</span>
-              <strong>Mohamad Kargar</strong> AI researcher from London
+              <strong>Mohamad Kargar</strong> AI researcher
             </h2>
 
             <p class="hero-text">
-              Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
+              Welcome to my digital home!
             </p>
 
             <div class="btn-group">
@@ -157,10 +165,10 @@
 
           <figure class="about-banner">
 
-            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Mohamad's Photo"
               class="img-cover">
 
-            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Mohamad's Photo"
               class="abs-img">
 
             <div class="abs-icon abs-icon-1">
@@ -214,82 +222,93 @@
           <h2 class="h2 section-title">My Amazing Works</h2>
 
           <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+            
           </p>
 
           <ul class="portfolio-list">
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+              <a href="https://www.youtube.com/watch?v=ucUIglunjOY&ab_channel=ComputerScienceResearchCentre" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')"
+              target="_blank">
                 <div class="card-content">
 
                   <p class="card-subtitle">Youtube</p>
 
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+                  <h3 class="h3 card-title">Spatial AI Modelling Emulator (SAIME)</h3>
 
-                  <span class="btn-link">
-                    <span>View Project</span>
-
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
+                  
 
                 </div>
               </a>
             </li>
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
-                <div class="card-content">
-
-                  <p class="card-subtitle">Vimeo</p>
-
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
-
+              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10246595/"
+                 class="portfolio-card"
+                 target="_blank"
+                 style="background: none; padding: 0; position: relative; overflow: hidden; display: block;">
+                 
+                <!-- VIDEO BACKGROUND -->
+                <video autoplay loop muted playsinline 
+                  style="width:100%; height:100%; object-fit:cover; border-radius: 20px; position: absolute; left: 0; top: 0; z-index: 0;">
+                  <source src="./assets/images/spoon.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                
+                <!-- CONTENT ON TOP -->
+                <div class="card-content" style="position: relative; z-index: 1;">
+                  <p class="card-subtitle">Human-Robot Interaction</p>
+                  <h3 class="h3 card-title">Assistive Robot for Parkinson's Patients</h3>
+                  <p class="card-description" style="font-size:0.95em; color:#fff;">
+                    
+                  </p>
                   <span class="btn-link">
-                    <span>View Project</span>
-
+                    <span>View Journal Paper</span>
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
                 </div>
               </a>
             </li>
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
-                <div class="card-content">
-
-                  <p class="card-subtitle">Soundcloud</p>
-
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
-
-                  <span class="btn-link">
-                    <span>View Project</span>
-
+              <a href="https://www.youtube.com/watch?v=EthyWLRXscM" class="portfolio-card" target="_blank" style="padding: 0; display: flex; align-items: center;">
+                
+                <!-- LEFT SIDE: Description -->
+                <div class="card-content" style="flex:1; padding: 30px;">
+                  <p class="card-subtitle">CEO & Co-founder</p>
+                  <h3 class="h3 card-title">Arshan Smart Home – Knowledge Enterprise</h3>
+                  <p class="card-description" style="font-size:1.2em; color:#fff; background: rgba(57, 33, 33, 0.196); padding:10px; border-radius:10px;">
+                    Smart Home Prototype Design and Implementation:<br>
+                    Successfully designed and implemented a prototype for a smart home system, approved by Isfahan Science and Technology Town.<br>
+                    <b>Approved Funding:</b> Iran (Role: PI, $2500)
+                  </p>
+                  <span class="btn-link" style="margin-top:10px; display:inline-block;">
+                    <span>VIEW PROJECT</span>
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
                 </div>
+                
+                <!-- RIGHT SIDE: Image -->
+                <img src="./assets/images/portfolio-3.jpg" alt="Smart Home Prototype" style="flex:1; max-width:50%; border-radius: 0 20px 20px 0; object-fit: cover; height:100%;">
               </a>
             </li>
+            
+            
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+              <a href="https://www.youtube.com/watch?v=bq6ppIJtNaE" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')"
+              target="_blank">
                 <div class="card-content">
 
-                  <p class="card-subtitle">Details</p>
+                  <p class="card-subtitle">Youtube</p>
 
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+                  <h3 class="h3 card-title">Reinforcement Learning & LLM-Powered Warehouse Optimiser</h3>
 
-                  <span class="btn-link">
-                    <span>View Project</span>
-
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </span>
+                  
 
                 </div>
               </a>
-            </li>
+            </li>>
 
           </ul>
 
@@ -306,94 +325,102 @@
 
       <section class="section skills" id="skills">
         <div class="container">
-
+      
           <p class="section-subtitle">My Skills</p>
-
-          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
-
+      
+          <h2 class="h2 section-title">Research & Technical Expertise</h2>
+      
           <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+            My research and teaching integrate machine learning and control systems, with a strong track record in academic leadership, industry collaboration, and curriculum development.
           </p>
-
+      
           <ul class="skills-list">
-
+      
             <li class="skills-item">
               <div class="wrapper" style="width: 95%">
-                <h3 class=" skills-title">CSS</h3>
-
-                <data class="skills-data" value="95">95%</data>
+                <h3 class="skills-title">Python & MATLAB Programming</h3>
+                <data class="skills-data" value="95">Expert</data>
               </div>
-
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 95%"></div>
               </div>
             </li>
-
-            <li class="skills-item">
-              <div class="wrapper" style="width: 75%">
-                <h3 class="skills-title">React</h3>
-
-                <data class="skills-data" value="75">75%</data>
-              </div>
-
-              <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 75%"></div>
-              </div>
-            </li>
-
+      
             <li class="skills-item">
               <div class="wrapper" style="width: 90%">
-                <h3 class="skills-title">MongoDB</h3>
-
-                <data class="skills-data" value="90">90%</data>
+                <h3 class="skills-title">Robotics & Simulation (Unity, ROS, Gazebo)</h3>
+                <data class="skills-data" value="90">Advanced</data>
               </div>
-
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 90%"></div>
               </div>
             </li>
-
+      
             <li class="skills-item">
-              <div class="wrapper" style="width: 70%">
-                <h3 class="skills-title">Python</h3>
-
-                <data class="skills-data" value="70">70%</data>
+              <div class="wrapper" style="width: 85%">
+                <h3 class="skills-title">Machine Learning & AI</h3>
+                <data class="skills-data" value="85">Advanced</data>
               </div>
-
               <div class="skills-progress-box">
-                <div class="skills-progress" style="width: 70%"></div>
+                <div class="skills-progress" style="width: 85%"></div>
               </div>
             </li>
-
+      
+            <li class="skills-item">
+              <div class="wrapper" style="width: 85%">
+                <h3 class="skills-title">Model Predictive Control & Optimisation</h3>
+                <data class="skills-data" value="85">Advanced</data>
+              </div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 85%"></div>
+              </div>
+            </li>
+      
             <li class="skills-item">
               <div class="wrapper" style="width: 80%">
-                <h3 class="skills-title">PHP</h3>
-
-                <data class="skills-data" value="80">80%</data>
+                <h3 class="skills-title">Multi-Agent Reinforcement Learning</h3>
+                <data class="skills-data" value="80">Advanced</data>
               </div>
-
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 80%"></div>
               </div>
             </li>
-
+      
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">Building Energy Systems & BMS</h3>
+                <data class="skills-data" value="80">Advanced</data>
+              </div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+      
             <li class="skills-item">
               <div class="wrapper" style="width: 75%">
-                <h3 class="skills-title">JavaScript</h3>
-
-                <data class="skills-data" value="75">75%</data>
+                <h3 class="skills-title">Academic Leadership & Research Management</h3>
+                <data class="skills-data" value="75">Strong</data>
               </div>
-
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 75%"></div>
               </div>
             </li>
-
+      
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Curriculum Development & Teaching</h3>
+                <data class="skills-data" value="75">Strong</data>
+              </div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+      
           </ul>
-
+      
         </div>
       </section>
-
+      
 
 
 
@@ -429,17 +456,9 @@
 
                 <li class="contact-item">
 
-                  <div class="contact-icon">
-                    <ion-icon name="location"></ion-icon>
-                  </div>
+                
 
-                  <div>
-                    <h3 class="contact-item-title">Address</h3>
-
-                    <address class="contact-item-link">
-                      20, London, United Kingdom
-                    </address>
-                  </div>
+                  
 
                 </li>
 
@@ -452,22 +471,13 @@
                   <div>
                     <h3 class="contact-item-title">Email</h3>
 
-                    <a href="mailto:hello@ethan.com" class="contact-item-link">hello@ethan.com</a>
+                    <a href="mailto:m.kargardehnavi@rca.ac.uk" class="contact-item-link">m.kargardehnavi@rca.ac.uk</a>
                   </div>
 
                 </li>
 
                 <li class="contact-item">
 
-                  <div class="contact-icon">
-                    <ion-icon name="call"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Phone</h3>
-
-                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
-                  </div>
 
                 </li>
 
@@ -490,78 +500,39 @@
 
       <section class="section blog" id="blog">
         <div class="container">
-
+      
           <p class="section-subtitle">Latest News</p>
-
-          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
-
-          <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
-          </p>
-
+      
+          <h2 class="h2 section-title">Check Out My Recent Blog</h2>
+      
           <ul class="blog-list">
-
+      
             <li>
               <div class="blog-card">
-
+      
                 <figure class="card-banner">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7346664538781483008/" target="_blank">
                     <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                      alt="The Evolving Role of Lecturers in the Age of AI" class="img-cover">
                   </a>
                 </figure>
-
-                <a href="#" class="card-tag">Web Development</a>
-
+      
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7346664538781483008/" class="card-tag" target="_blank">AI & Education</a>
+      
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7346664538781483008/" target="_blank">
+                    The Evolving Role of Lecturers in the Age of AI
                   </a>
-                </figure>
-
-                <a href="#" class="card-tag">Web Development</a>
-
-                <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
                 </h3>
-
+      
               </div>
             </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Web Development</a>
-
-                <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
-                </h3>
-
-              </div>
-            </li>
-
+      
           </ul>
-
+      
         </div>
       </section>
+      
 
     </article>
   </main>
